@@ -1,0 +1,175 @@
+ANTIGRAVITY GESTURE WEB APP - COPY AND PASTE THIS INTO CLAUDE
+
+I want you to create a stunning, interactive hand gesture-controlled web application with the following specifications:
+
+=== CORE FEATURES ===
+
+Hand Detection & Tracking:
+- Detect both hands in real-time using MediaPipe/TensorFlow.js
+- Track all 21 finger landmarks for each hand
+- Display hand skeleton with fingertips prominently visible
+
+Spider Web Finger Connection System (PRIMARY VISUAL):
+- Create beautiful, animated lines connecting:
+  - ALL fingertips to each other (creating a web of connections)
+  - Fingertips to palm center
+  - Between hands when both are visible (cross-hand connections)
+- Make these lines animate and flow like living networks
+- Apply gradient coloring to connections (colors shift along the line)
+- Add glow/bloom effects to make lines luminous
+- Vary line thickness based on distance (closer = thicker)
+- Animate opacity based on hand position/movement speed
+
+Gesture-Triggered Visual Patterns:
+
+1. OPEN HAND GESTURE (fingers spread wide)
+   - Spider web lines EXPLODE outward with particles
+   - Create radial burst patterns
+   - Lines glow brighter (greens, cyans, electric blues)
+   - Spawn trailing particles from each fingertip
+
+2. CLOSED FIST GESTURE (fingers curled)
+   - Lines collapse inward toward palm center
+   - Create vortex/spiral patterns
+   - Colors shift to purples, magentas, warm oranges
+   - Particles get pulled into center with orbital motion
+
+3. PINCH GESTURE (thumb & finger touching)
+   - Create intricate mandala-like patterns
+   - Fine, delicate web lines
+   - Colors: golds, silvers, pearl whites
+   - Emit rhythmic pulses from pinch point
+
+4. HAND ROTATION GESTURE
+   - Create rotating geometric patterns around hand
+   - Trace circular paths with glowing trails
+   - Rainbow color gradients
+   - Symmetrical kaleidoscope effects
+
+5. BOTH HANDS TOGETHER (when hands are close)
+   - Create bridge connections between hands
+   - Mirror/symmetrical patterns
+   - Dual-color gradient systems
+   - Particle collision effects
+
+Particle System:
+- Spawn particles from fingertips, palm, and along web lines
+- Particles have physics: gravity, velocity, collision
+- Colors coordinate with gesture state:
+  - Open hand: bright neons (cyan, lime, electric blue)
+  - Closed fist: warm rich colors (magenta, orange, gold)
+  - Pinch: metallic shimmer (silver, gold, pearl)
+- Particle trails create flowing streams
+- Particles interact with the web lines (attracted/repelled)
+
+=== AESTHETIC DIRECTION ===
+
+Style: Maximalist Futuristic Organic
+- Deep, rich background: dark space-like gradient (navy → midnight → deep teal)
+- Neon color palette with unexpected combinations:
+  - Primary: Electric cyan, neon lime, hot magenta
+  - Secondary: Deep purples, burnt oranges, gold accents
+  - Tertiary: Pearl white, silver, holographic effects
+- Heavy use of:
+  - Glowing effects (blur, glow filters)
+  - Gradient meshes
+  - Layered transparencies and blur
+  - Dynamic shadowing
+  - Motion blur on fast movements
+- Typography: Use distinctive, modern monospace font for UI elements
+
+Key Visual Concepts:
+- Make it feel alive and organic (breathing animations)
+- Create a sense of magic and wonder
+- Emphasize the web/network connectivity theme
+- Lots of motion and flow
+- High visual density (maximalist approach)
+- Smooth, fluid animations (never jarring)
+
+=== TECHNICAL REQUIREMENTS ===
+
+Performance:
+- Smooth 60fps animation
+- Optimized canvas rendering
+- Max ~2000 particles visible at once
+- Efficient line drawing (don't draw off-screen lines)
+
+Interactions:
+- Real-time responsive controls
+- No lag between hand movement and visual feedback
+- Smooth color transitions
+- Easing functions for all animations
+
+User Interface:
+- Show camera feed in corner (200x150px)
+- Display real-time stats: FPS, particle count, active gestures
+- Instruction panel with gesture guide
+- Loading state when initializing hand detection
+- Status indicator showing detection quality
+
+Browser Compatibility:
+- Works in modern browsers (Chrome, Firefox, Safari, Edge)
+- Responsive to window resize
+- Camera permission handling with clear instructions
+
+=== SPECIFIC VISUAL EFFECTS ===
+
+Web Line Effects:
+- Rainbow gradient flowing through lines (animated)
+- Pulsing glow that follows hand movement speed
+- Dashed pattern animation when hand is stationary
+- Solid lines when hand moving fast
+- Thickness variation based on fingertip spread distance
+
+Color Schemes (use these exact combinations):
+- Expansion Mode: Cyan #00FFFF → Lime #00FF00 → Electric Blue #0080FF
+- Contraction Mode: Magenta #FF00FF → Orange #FF6600 → Gold #FFD700
+- Pinch Mode: Silver #CCCCCC → Pearl #FFFACD → Holographic shifts
+- Rotation Mode: Red → Orange → Yellow → Green → Cyan → Blue → Magenta (full spectrum)
+
+Pattern Generation:
+- Use trigonometric functions to create geometric patterns
+- Implement Lissajous curves for hand trajectory tracing
+- Create kaleidoscope symmetry (8-point, 6-point patterns)
+- Generate mandala patterns from pinch positions
+
+Particle Effects:
+- Emit 5-15 particles per fingertip per frame (based on speed)
+- Create spiral trails from fingertips during rotation
+- Implement particle collision detection
+- Add electromagnetic repulsion between particle clusters
+
+=== CODE QUALITY REQUIREMENTS ===
+
+- Well-commented, organized code
+- Modular structure (separate classes for particles, hands, patterns)
+- CSS variables for all colors and dimensions
+- Smooth, professional animations (no choppy frame skipping)
+- Proper error handling for camera/detection failures
+
+=== DELIVERABLE ===
+
+Create a complete HTML/CSS/JavaScript single-file web application that:
+✓ Runs immediately in any modern browser
+✓ Requires only camera access (no external files)
+✓ Uses MediaPipe for hand detection
+✓ Features spider web finger connections as PRIMARY visual
+✓ Has gesture-triggered pattern generation
+✓ Displays stunning particle effects
+✓ Uses the color schemes specified above
+✓ Achieves smooth 60fps performance
+✓ Includes clear UI guidance for users
+
+ADDITIONAL ENHANCEMENTS (if space allows):
+- Screen recording capability
+- Gesture history/pattern memory
+- Theme toggle (light/dark alternatives)
+- Sound effects (optional audio reactivity)
+- Export drawing as PNG
+- Gesture sensitivity slider
+
+=== FINAL INSTRUCTION ===
+
+Build this web app with MAXIMUM VISUAL CREATIVITY AND POLISH. Focus on making the spider web connections absolutely stunning - they should be the star of the show. Make it feel like interactive digital art that responds to body language. Use all the color combinations and effects specified. Make people say "WOW" when they see it.
+
+DO NOT HOLD BACK on complexity, animations, or visual density. This is maximalist art. Make it extraordinary.

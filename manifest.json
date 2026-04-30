@@ -2,7 +2,7 @@
   "name": "Stimuli",
   "short_name": "Stimuli",
   "description": "Interactive hand gesture-controlled visual art experience",
-  "start_url": "/stimuli.html",
+  "start_url": "/",
   "display": "fullscreen",
   "background_color": "#020818",
   "theme_color": "#00FFFF",

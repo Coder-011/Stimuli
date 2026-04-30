@@ -1,5 +1,5 @@
 const CACHE = 'stimuli-v1';
-const ASSETS = ['/', '/stimuli.html', '/manifest.json'];
+const ASSETS = ['/', '/index.html', '/manifest.json'];
 
 // Allowlist: only cache/fetch from trusted origins
 const ALLOWED_ORIGINS = [
